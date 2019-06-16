@@ -1,0 +1,46 @@
+[users]
+
+name = "dalong"
+
+age = 333
+
+tags = ["app","log"]
+
+[users.app]
+
+class ="v1"
+token = "app"
+
+[users.log]
+
+class ="v2"
+token = "log"
+
+[[users.log.items]]
+
+itemname = "dlaongdemo"
+itemtype = "system"
+
+[[users.log.items]]
+
+itemname = "demo"
+itemtype = "local"
+
+[[fruit]]
+  name = "apple"
+
+[fruit.physical]
+    color = "red"
+    shape = "round"
+
+[[fruit.variety]]
+    name = "red delicious"
+
+[[fruit.variety]]
+    name = "granny smith"
+
+[[fruit]]
+  name = "banana"
+
+  [[fruit.variety]]
+    name = "plantain"

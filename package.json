@@ -1,0 +1,13 @@
+{
+  "name": "toml-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "toml": "^3.0.0"
+  },
+  "scripts": {
+    "app":"node app"
+  }
+}
